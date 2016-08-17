@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "clear-cookies",
+    "description": "Clear cookies",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "icons/sound.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "cookies",
+        "tabs",
+        "*://*/*"
+    ]
+}
